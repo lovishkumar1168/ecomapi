@@ -9,8 +9,6 @@ import bodyParser from "body-parser";
 import { jwtAuthorization } from "./src/middlewares/jwt.middleware.js";
 import cors from "cors";
 import cookieParser from "cookie-parser";
-import apiDoc from "../E-Com-Api/swagger.json" assert {type:'json'}
-//import { loggerMiddleware } from "./src/middlewares/logger.middleware.js";
 import { winstonMiddleware } from "./src/middlewares/winston.middleware.js";
 import { errorHandlerMiddleware } from "./src/middlewares/errorHandlerMiddleware.js";
 import { connectToMongoDBUsingMongoose } from "./src/config/mongooseConfig.js";
